@@ -21,7 +21,7 @@ app.post('/send-email', (req, res) => {
     from: email,
     to: 'walaeddine.riahi@ieee.org',
     subject: `New ${role} registration from ${fullName}`,
-    text: `Message: ${message}\nEmail: ${email}\nRole: ${role}`
+    text: `Message: ${message}\nName: ${fullName}\nEmail: ${email}\nRole: ${role}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

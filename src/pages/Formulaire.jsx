@@ -14,7 +14,7 @@ const Formulaire = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('http://localhost:3001/send-email', formData);
+            const response = await axios.post('https://adaptafrica-qsuq.vercel.app/send-email', formData);
             alert('Form submitted successfully');
             // Handle successful response
         } catch (error) {
