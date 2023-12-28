@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "server.cjs",
   "scripts": {
     "dev": "npx npm-run-all --parallel server start",
     "server": "node server.cjs",
