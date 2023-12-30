@@ -15,7 +15,7 @@ const MobileNavbar = ({ setShowNav }) => {
                     <Link to="/">Home</Link>
                     <Link to="/aboutus" >About us</Link>
                     <Link to="/events" >Planning</Link>
-                    <Link to="/formulaire" >Formulaire</Link>
+                    <Link to="/formulaire" >Registration</Link>
                 </div>
             </div>
         </div>

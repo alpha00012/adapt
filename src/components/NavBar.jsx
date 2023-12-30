@@ -57,7 +57,7 @@ const NavBar = () => {
                 <NavLink name="Home" path="/" status={routeName === ''}/>
                 <NavLink name="About us" path="/aboutus" status={routeName === 'aboutus'}/>
                 <NavLink name="Planning" path="/events" status={routeName === 'planning'}/>
-                <NavLink name="Formulaire" path="/formulaire" status={routeName === 'formulaire'}/>
+                <NavLink name="Registration" path="/formulaire" status={routeName === 'formulaire'}/>
             </div>
             <div className="w-36">
             </div>

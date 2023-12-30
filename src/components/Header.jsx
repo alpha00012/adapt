@@ -17,7 +17,7 @@ const Header = () => {
             setRouteName('Planning');
             break;
             case '/formulaire':
-                setRouteName('Formulaire');
+                setRouteName('Congress Registration');
                 break;
         case '/units':
             setRouteName('Units');

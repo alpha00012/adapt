@@ -54,37 +54,7 @@ changing landscape.
                         </p>
                     </div>
                 </div>
-                <Stats>
-                    <StatItem label="Chapters" value={8}/>
-                    <StatItem label="Groups" value={2}/>
-                    <StatItem label="Members" value={820}/>
-                    <StatItem label="Annual Activities" value={50}/>
-                    <StatItem label="Awards" value={20}/>
-                </Stats>
-                <div className=" flex flex-col items-center w-full py-[50px] gap-[50px]">
-                    <h1 className="text-[42px] font-bold text-primary text-center leading-none">Our Executive Committee</h1>
-                    <div
-                        id="exBoardItem"
-                        className="flex flex-wrap lg:justify-between justify-center gap-x-10 gap-y-[30px] w-full xl:px-[250px] md:px-[75px] px-[50px]  ">
-                        {
-                            exBoards.map((exBoard, index) => (
-                                <ExBoardItem
-                                    key={index}
-                                    img={'/assets/ExBoard/' + exBoard.img}
-                                    post={exBoard.post}
-                                    name={exBoard.name}
-                                    onClick={() => setActive(index + 1)}
-                                    active={active === index + 1}
-                                    fb={exBoard.fb}
-                                    insta={exBoard.insta}
-                                    linkedin={exBoard.linkedin}
-                                    mail={'mailto:'+exBoard.mail}
-                                />
-                            ))
-                        }
-                    </div>
-                </div>
-            </div>
+                        </div>
         </DefaultLayout>
     );
 };
