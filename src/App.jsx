@@ -10,6 +10,7 @@ import Day2 from './pages/Events2.jsx';
 import Day3 from './pages/Events3.jsx';
 import All from './pages/Eventsall.jsx';
 import Home from './pages/Home.jsx';
+import Exhibiting from './pages/Exhibiting.jsx';
 import Formulaire from './pages/Formulaire.jsx';
 import { setLoading, setSizeMode } from './redux/config-reducer.js';
 
@@ -57,6 +58,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/aboutus" element={<AboutUs/>}/>
+            <Route path="/exhibiting" element={<Exhibiting/>}/>
             <Route path="/events" element={<Planning/>}/>
             <Route path="/formulaire" element={<Formulaire/>}/>
             <Route path="/events1" element={<Day1/>}/>

@@ -10,6 +10,11 @@ const Header = () => {
         case '/':
             setRouteName('Home');
             break;
+            
+            
+            case '/exhibiting':
+                setRouteName('Exhibiting');
+                break;
         case '/aboutus':
             setRouteName('About Us');
             break;
