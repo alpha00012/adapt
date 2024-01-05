@@ -16,6 +16,18 @@ const Header = () => {
         case '/events':
             setRouteName('Planning');
             break;
+            case '/events1':
+            setRouteName('Day 1');
+            break;
+            case '/events2':
+            setRouteName('Day 2');
+            break;
+            case '/events3':
+            setRouteName('Day 3');
+            break;
+            case '/eventsall':
+            setRouteName('Agenda');
+            break;
             case '/formulaire':
                 setRouteName('Congress Registration');
                 break;

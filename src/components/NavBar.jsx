@@ -5,18 +5,29 @@ import { Link } from 'react-router-dom';
 import LogoW from '/assets/logos/logo_w.png';
 import MobileNavbar from './MobileNavbar.jsx';
 
-const NavLink = ({ path, name, status }) => {
+const NavLink = ({ path, name, status, subMenu }) => {
+    const [showSubMenu, setShowSubMenu] = useState(false);
+
     return (
-        <div className="group">
+        <div 
+            className="group" 
+            onMouseEnter={() => setShowSubMenu(true)} 
+            onMouseLeave={() => setShowSubMenu(false)}
+        >
             <Link to={path} className="relative">
                 {name}
-                {
-                    status ? <div className="line"></div> : <div className={'line-transition'}></div>
-                }
-
+                {status ? <div className="line"></div> : <div className='line-transition'></div>}
             </Link>
+            {showSubMenu && subMenu && (
+                <div className="sub-menu">
+                    {subMenu.map((item, index) => (
+                        <Link key={index} to={item.path} className="sub-menu-item">
+                            {item.name}
+                        </Link>
+                    ))}
+                </div>
+            )}
         </div>
-
     );
 };
 
@@ -35,6 +46,16 @@ const NavBar = () => {
     useEffect(() => {
         console.log('showNav', showNav);
     }, [showNav]);
+
+    // Sous-menu pour 'Agenda'
+   
+    const agendaSubMenu = [
+        { name: "Day 1", path: "/events1"},
+        { name: "Day 2", path: "/events2"},
+        { name: "Day 3", path: "/events3"},
+        { name: "All", path: "/eventsall"}
+    ];
+  
 
     if (isMobile) {
         return (
@@ -56,7 +77,7 @@ const NavBar = () => {
             <div className="flex flex-row gap-8 text-white text-lg">
                 <NavLink name="Home" path="/" status={routeName === ''}/>
                 <NavLink name="About us" path="/aboutus" status={routeName === 'aboutus'}/>
-                <NavLink name="Planning" path="/events" status={routeName === 'planning'}/>
+                <NavLink name="Agenda" path="" status={routeName === 'agenda'} subMenu={agendaSubMenu}/>
                 <NavLink name="Registration" path="/formulaire" status={routeName === 'formulaire'}/>
             </div>
             <div className="w-36">

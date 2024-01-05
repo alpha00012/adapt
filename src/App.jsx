@@ -5,6 +5,10 @@ import './App.css';
 import LottiePreloader from './components/LottiePreloader.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import Planning from './pages/Events.jsx';
+import Day1 from './pages/Events1.jsx';
+import Day2 from './pages/Events2.jsx';
+import Day3 from './pages/Events3.jsx';
+import All from './pages/Eventsall.jsx';
 import Home from './pages/Home.jsx';
 import Formulaire from './pages/Formulaire.jsx';
 import { setLoading, setSizeMode } from './redux/config-reducer.js';
@@ -55,6 +59,10 @@ function App() {
             <Route path="/aboutus" element={<AboutUs/>}/>
             <Route path="/events" element={<Planning/>}/>
             <Route path="/formulaire" element={<Formulaire/>}/>
+            <Route path="/events1" element={<Day1/>}/>
+            <Route path="/events2" element={<Day2/>}/>
+            <Route path="/events3" element={<Day3/>}/>
+            <Route path="/eventsall" element={<All/>}/>
             <Route path="*" element={<Navigate to="/"/>}/>
         </Routes>
     );
