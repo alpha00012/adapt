@@ -22,6 +22,7 @@ const MobileNavbar = ({ setShowNav }) => {
             <div className="flex flex-col items-center gap-4 relative text-2xl font-bold">
             <Link to="/">Home</Link>
                     <Link to="/aboutus" >About us</Link>
+                    <Link to="/exhibiting" >Exhibiting</Link>
                     <button onClick={toggleAgendaLinks} className="flex flex-col items-center gap-4 relative text-2xl font-bold">
                     Agenda
                 </button>
