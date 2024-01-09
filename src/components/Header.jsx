@@ -17,6 +17,8 @@ const Header = () => {
                 break;
         case '/aboutus':
             setRouteName('About Us');
+            case '/sponsor':
+                setRouteName('Sponsorship Opportunities');
             break;
         case '/events':
             setRouteName('Planning');

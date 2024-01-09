@@ -80,7 +80,7 @@ const NavBar = () => {
                 <NavLink name="Agenda" path="" status={routeName === 'agenda'} subMenu={agendaSubMenu}/>
                 <NavLink name="Registration" path="/formulaire" status={routeName === 'formulaire'}/>
                 <NavLink name="Exhibiting" path="/exhibiting" status={routeName === 'exhibiting'}/>
-                <NavLink name="Sponsorship" path="/exhibiting" status={routeName === 'sponsorship'}/>
+                <NavLink name="Sponsorship" path="/sponsor" status={routeName === 'sponsorship'}/>
             </div>
             <div className="w-36">
             </div>
