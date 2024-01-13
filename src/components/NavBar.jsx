@@ -65,14 +65,14 @@ const NavBar = () => {
                     <MobileNavbar setShowNav={setShowNav} showNav={showNav}/>
                 }
                 <IoMenu className={`text-4xl text-white ${showNav && 'opacity-0'}`} onClick={() => setShowNav(true)}/>
-                <img src={LogoW} alt="IEEE ESPRIT SB" className="h-12"/>
+                <img src={LogoW} alt="ADAPT AFRICA" className="h-12"/>
             </div>
         );
     }
     return (
         <div className="flex flex-row px-[50px] pt-6 items-center justify-between absolute w-full">
             <div>
-                <img src={LogoW} alt="IEEE ESPRIT SB" className="h-40"/>
+                <img src={LogoW} alt="ADAPT AFRICA" className="h-40"/>
             </div>
             <div className="flex flex-row gap-8 text-white text-lg">
                 <NavLink name="Home" path="/" status={routeName === ''}/>
