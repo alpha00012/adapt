@@ -19,10 +19,11 @@ const Sponsor = () => {
 
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
-            </section>
-          <div className="centered-image">
+            <div className="centered-image">
   <img src="4.png" alt="Sponsorship Image" className="sponsorship-image" />
 </div>
+            </section>
+          
           <section className="prospectus-section contact-info">
             <h2>Sponsorship Proposal</h2>
             <p></p>
