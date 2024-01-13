@@ -20,7 +20,7 @@ const Sponsor = () => {
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
             <div className="centered-image">
-  <img src="4.png" alt="Sponsorship Image" className="sponsorship-image" />
+  <img src="public\assets\4.png" alt="Sponsorship Image" className="sponsorship-image" />
 </div>
             </section>
           
@@ -28,7 +28,7 @@ const Sponsor = () => {
             <h2>Sponsorship Proposal</h2>
             <p></p>
             <iframe
-            src="proposal - final.pdf"
+            src="src\assets\proposal - final.pdf"
             title="PDF Viewer"
             width="100%"
             height="530px" // Adjust the height as needed
