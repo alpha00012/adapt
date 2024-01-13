@@ -1,8 +1,6 @@
-
 import React from 'react';
-import '../layout/sponsorshipStyle.css'; // Ensure the correct path
+import '../layout/sponsorshipStyle.css'; // Assurez-vous du chemin correct
 import DefaultLayout from '../layout/DefaultLayout.jsx';
-
 
 const Sponsor = () => {
   return (
@@ -15,36 +13,33 @@ const Sponsor = () => {
             <p>Join us in shaping the future of business resilience in Africa and beyond. Discover the benefits of being a sponsor at this premier event set in the picturesque coastal area of Hammamet, Tunisia.</p>
           </section>
 
-          
-
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
             <div className="centered-image">
-  <img src="public\assets\4.png" alt="Sponsorship Image" className="sponsorship-image" />
-</div>
-            </section>
-          
+              <img src="public\assets\4.png" alt="Sponsorship Image" className="sponsorship-image" />
+            </div>
+          </section>
+
           <section className="prospectus-section contact-info">
             <h2>Sponsorship Proposal</h2>
             <p></p>
             <iframe
-            src="src\assets\proposal - final.pdf"
-            title="PDF Viewer"
-            width="100%"
-            height="530px" // Adjust the height as needed
-          ></iframe>
+              src="https://drive.google.com/file/d/1dAik-b6_k0uvoafi_Nwzv6bEn8AuNQOh/preview"
+              
+              title="PDF Viewer"
+              width="100%"
+              height="530px" // Ajustez la hauteur au besoin
+            ></iframe>
           </section>
-
-          
-          
 
           <section className="prospectus-section footer">
             <h2>Become a Sponsor</h2>
             <p>Join the ranks of our esteemed sponsors and make a lasting impact at the ADAPT AFRICA Congress.</p>
           </section>
+
           <a href="registration-link" className="registration-button-link">
-  <button className="registration-button">Become a Sponsor</button>
-</a>
+            <button className="registration-button">Become a Sponsor</button>
+          </a>
         </main>
       </div>
     </DefaultLayout>
