@@ -19,7 +19,9 @@ const Sponsor = () => {
             <iframe
               src="https://drive.google.com/file/d/1eTNw7GyRFCnx9a0pTFDTDMAxek3vYyPQ//preview"
               
-              title="PDF Viewer"
+              
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
               width="100%"
               height="358px" // Ajustez la hauteur au besoin
             ></iframe>  
