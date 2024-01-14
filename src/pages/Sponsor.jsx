@@ -1,25 +1,27 @@
 import React from 'react';
 import '../layout/sponsorshipStyle.css'; // Assurez-vous du chemin correct
 import DefaultLayout from '../layout/DefaultLayout.jsx';
+import image4 from '/assets/logos/4.png';
+// puis dans votre JSX
+
 
 const Sponsor = () => {
   return (
     <DefaultLayout> 
       <div className="prospectus-container">
         <main className="prospectus-main">
+        
        
           <section className="prospectus-section header">
             <h1>Sponsorship Opportunities at ADAPT AFRICA Congress</h1>
             <p>Join us in shaping the future of business resilience in Africa and beyond. Discover the benefits of being a sponsor at this premier event set in the picturesque coastal area of Hammamet, Tunisia.</p>
           </section>
-
+          
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
             
             <iframe
-              src="https://drive.google.com/file/d/1eTNw7GyRFCnx9a0pTFDTDMAxek3vYyPQ//preview"
-              
-              
+              src="https://drive.google.com/file/d/1eTNw7GyRFCnx9a0pTFDTDMAxek3vYyPQ/preview"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               width="100%"
