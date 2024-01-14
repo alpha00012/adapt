@@ -36,6 +36,9 @@ const Sponsor = () => {
             <h2>Become a Sponsor</h2>
             <p>Join the ranks of our esteemed sponsors and make a lasting impact at the ADAPT AFRICA Congress.</p>
           </section>
+          <div className="centered-image">
+              <img src ='4.png' alt="Sponsorship Image" />
+            </div>
 
           <a href="registration-link" className="registration-button-link">
             <button className="registration-button">Become a Sponsor</button>
