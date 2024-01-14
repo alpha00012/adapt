@@ -16,7 +16,7 @@ const Sponsor = () => {
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
             <div className="centered-image">
-              <img src="assets/4.png" alt="Sponsorship Image" className="sponsorship-image" />
+              <img src="4.png" alt="Sponsorship Image" className="sponsorship-image" />
             </div>
           </section>
 
