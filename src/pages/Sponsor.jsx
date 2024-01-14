@@ -15,9 +15,14 @@ const Sponsor = () => {
 
           <section className="prospectus-section testimonials">
             <h2>Comparing Sponsorship Levels</h2>
-            <div className="centered-image">
-              <img src ='4.png' alt="Sponsorship Image" />
-            </div>
+            
+            <iframe
+              src="https://drive.google.com/file/d/1eTNw7GyRFCnx9a0pTFDTDMAxek3vYyPQ//preview"
+              
+              title="PDF Viewer"
+              width="100%"
+              height="358px" // Ajustez la hauteur au besoin
+            ></iframe>  
           </section>
 
           <section className="prospectus-section contact-info">
@@ -36,9 +41,7 @@ const Sponsor = () => {
             <h2>Become a Sponsor</h2>
             <p>Join the ranks of our esteemed sponsors and make a lasting impact at the ADAPT AFRICA Congress.</p>
           </section>
-          <div className="centered-image">
-              <img src ='4.png' alt="Sponsorship Image" />
-            </div>
+          
 
           <a href="registration-link" className="registration-button-link">
             <button className="registration-button">Become a Sponsor</button>
