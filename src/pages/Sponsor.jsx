@@ -47,7 +47,7 @@ const Sponsor = () => {
           </section>
           
 
-          <a href="registration-link" className="registration-button-link">
+          <a href="https://forms.office.com/r/n18u2Pcxq3" className="registration-button-link">
             <button className="registration-button">Become a Sponsor</button>
           </a>
         </main>

@@ -13,13 +13,13 @@ const Formulaire = () => {
         let url = '';
         switch (visitorType) {
             case 'participant':
-                url = 'https://forms.gle/HLR62FPc6soZ4V7m9';
+                url = 'https://forms.office.com/r/mUnWRG9kSb';
                 break;
             case 'exhibitor':
                 url = 'https://forms.gle/Ys1MRwoEnGLz5yz58';
                 break;
             case 'speaker':
-                url = 'https://forms.gle/tsQxgfnCSaw4FsLp7';
+                url = 'https://forms.office.com/r/uZXubN9phe';
                 break;
             default:
                 alert('Please select a visitor type');
