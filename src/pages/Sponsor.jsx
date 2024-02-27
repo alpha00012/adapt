@@ -1,13 +1,12 @@
 import React from 'react';
 import '../layout/sponsorshipStyle.css'; // Assurez-vous du chemin correct
 import DefaultLayout from '../layout/DefaultLayout.jsx';
-import image4 from '/assets/logos/4.png';
+
 // puis dans votre JSX
 
-
 const Sponsor = () => {
-  return (
-    <DefaultLayout> 
+return (
+<DefaultLayout> 
       <div className="prospectus-container">
         <main className="prospectus-main">
         
@@ -26,7 +25,7 @@ const Sponsor = () => {
               allowFullScreen
               width="100%"
               height="358px" // Ajustez la hauteur au besoin
-            ></iframe>  
+            ></iframe>
           </section>
 
           <section className="prospectus-section contact-info">
