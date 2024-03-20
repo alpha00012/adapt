@@ -20,11 +20,14 @@ return (
             <h2>Comparing Sponsorship Levels</h2>
             
             <iframe
-              src="https://drive.google.com/file/d/1eTNw7GyRFCnx9a0pTFDTDMAxek3vYyPQ/preview"
+              src="https://drive.google.com/file/d/1uSgzyqnC6qnNmAAlXy-F_TJ2Zt4neo_Y/preview"
+              
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               width="100%"
-              height="358px" // Ajustez la hauteur au besoin
+              height="458px" // Ajustez la hauteur au besoin
+              marginRight="200px"
+              marginLeft="200px"
             ></iframe>
           </section>
 
@@ -32,7 +35,8 @@ return (
             <h2>Sponsorship Proposal</h2>
             <p></p>
             <iframe
-              src="https://drive.google.com/file/d/1dAik-b6_k0uvoafi_Nwzv6bEn8AuNQOh/preview"
+              src="https://drive.google.com/file/d/1BiC_Csg2R9oEl4D9-TU9edxnK1CxfEl1/preview"
+              
               
               title="PDF Viewer"
               width="100%"

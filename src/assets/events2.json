@@ -1,11 +1,17 @@
 [
- 
   {
     "day": "Day 2",
-    "title": "Interactive Workshop - 'Business Continuity Simulation Exercise'",
-    "date": "4:00 PM - 5:30 PM",
+    "title": "Dinner Networking",
+    "date": "7:00 PM - 11:00 PM",
+    "img": "24.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Simultaneous Workshops",
+    "date": "4:00 PM - 6:00 PM",
     "img": "18.png"
   },
+
   {
     "day": "Day 2",
     "title": "Networking Break",
@@ -14,39 +20,50 @@
   },
   {
     "day": "Day 2",
-    "title": "Panel Discussion - 'Learning from Global Success Stories'",
-    "date": "2:00 PM - 3:30 PM",
-    "img": "16.png"
+    "title": "Roundtable - Research in Business Continuity: Enlightening Future Decisions",
+    "date": "2:45 PM - 3:30 PM",
+    "img": "20.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Roundtable - AI in Service of Continuity",
+    "date": "2:00 PM - 2:45 PM",
+    "img": "19.png"
   },
   {
     "day": "Day 2",
     "title": "Lunch Break",
-    "date": "1:00 PM - 2:00 PM",
+    "date": "12:30 PM - 2:00 PM",
     "img": "15.png"
   },
   {
     "day": "Day 2",
-    "title": "Workshops - 'Risk Assessment and Mitigation Strategies'",
-    "date": "11:30 AM - 1:00 PM",
+    "title": "Keynote - Challenges of Continuity for SMEs",
+    "date": "11:45 AM - 12:30 PM",
+    "img": "16.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Keynote - Cybersecurity and Resilience: Challenges for Africa",
+    "date": "11:00 AM - 11:45 AM",
     "img": "14.png"
   },
   {
     "day": "Day 2",
     "title": "Coffee Break and Networking",
-    "date": "11:00 AM - 11:30 AM",
+    "date": "10:30 AM - 11:00 AM",
     "img": "13.png"
   },
   {
     "day": "Day 2",
-    "title": "Panel Discussion - 'Practical Approaches to Business Continuity'",
-    "date": "10:00 AM - 11:00 AM",
+    "title": "Roundtable - Succeeding in Business Continuity Projects",
+    "date": "9:15 AM - 10:30 AM",
     "img": "12.png"
   },
   {
     "day": "Day 2",
-    "title": "Keynote Speaker - 'Effective Business Continuity Planning: Tools and Techniques'",
-    "date": "9:00 AM - 10:00 AM",
+    "title": "Keynote - Effective Business Continuity Planning: Tools and Techniques: the GPG7.0",
+    "date": "8:30 AM - 9:15 AM",
     "img": "11.png"
   }
-  
 ]

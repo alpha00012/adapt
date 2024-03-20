@@ -1,58 +1,56 @@
 [
- 
   {
     "day": "Day 3",
-    "title": "Networking and Farewell",
-    "date": "5:00 PM - 6:00 PM",
-    "img": "27.png"
-  },
-  {
-    "day": "Day 3",
-    "title": "Conference Wrap-up and Acknowledgments",
-    "date": "4:00 PM - 5:00 PM",
-    "img": "26.png"
-  },
-  {
-    "day": "Day 3",
-    "title": "Closing Keynote - 'Charting the Future: Making Business Continuity a Standard Practice in Africa'",
-    "date": "3:30 PM - 4:00 PM",
+    "title": "Conference Closure and Thanks",
+    "date": "3:00 PM - 4:00 PM",
     "img": "25.png"
   },
   {
     "day": "Day 3",
+    "title": "Roundtable: Future Perspectives - Making Business Continuity a Standard in Africa",
+    "date": "2:00 PM - 3:00 PM",
+    "img": "26.png"
+  },
+  {
+    "day": "Day 3",
     "title": "Lunch Break",
-    "date": "2:00 PM - 3:30 PM",
-    "img": "24.png"
+    "date": "12:30 PM - 2:00 PM",
+    "img": "27.png"
   },
   {
     "day": "Day 3",
-    "title": "Roundtable Discussions - 'Addressing Specific Challenges in Different Industries'",
-    "date": "1:00 PM - 2:00 PM",
-    "img": "23.png"
-  },
-  {
-    "day": "Day 3",
-    "title": "Presentation and Panel Discussion - 'Ensuring Resilience in Industrial Control Systems: Challenges and Best Practices'",
-    "date": "11:30 AM - 1:00 PM",
+    "title": "Roundtable - Ensuring Resilience in Industrial Control Systems: Challenges and Best Practices",
+    "date": "11:45 AM - 12:30 PM",
     "img": "22.png"
   },
   {
     "day": "Day 3",
+    "title": "Keynote - Critical Infrastructure Resilience",
+    "date": "11:00 AM - 11:45 AM",
+    "img": "23.png"
+  },
+  {
+    "day": "Day 3",
     "title": "Coffee Break and Networking",
-    "date": "11:00 AM - 11:30 AM",
+    "date": "10:30 AM - 11:00 AM",
+    "img": "13.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Roundtable: Implementation Roadmap - Insights from Industry Leaders",
+    "date": "9:45 AM - 10:30 AM",
     "img": "21.png"
   },
   {
     "day": "Day 3",
-    "title": "Panel Discussion - 'Roadmap to Implementation: Insights from Industry Leaders'",
-    "date": "10:00 AM - 11:00 AM",
+    "title": "Resilience Strategies for Industrial Businesses in a 4.0 World",
+    "date": "9:15 AM - 9:45 AM",
     "img": "20.png"
   },
   {
     "day": "Day 3",
-    "title": "Keynote Speaker - 'Overcoming Challenges: Practical Steps to Implement Business Continuity in Africa'",
-    "date": "9:00 AM - 10:00 AM",
+    "title": "Strengthening Resilience from Inside Out",
+    "date": "8:30 AM - 9:15 AM",
     "img": "19.png"
   }
-  
 ]

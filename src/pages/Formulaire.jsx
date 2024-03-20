@@ -16,7 +16,7 @@ const Formulaire = () => {
                 url = 'https://forms.office.com/r/mUnWRG9kSb';
                 break;
             case 'exhibitor':
-                url = 'https://forms.gle/Ys1MRwoEnGLz5yz58';
+                url = 'https://forms.office.com/r/a2DW2m4Z1s';
                 break;
             case 'speaker':
                 url = 'https://forms.office.com/r/uZXubN9phe';
